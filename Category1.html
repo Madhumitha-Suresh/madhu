@@ -1,0 +1,54 @@
+<!-- Logo -->
+<img src="logo1.jpg" class="logo">
+<head>
+    <title>KLM Supermarket</title>
+
+    <style>
+        .category-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+
+        .category {
+            text-align: center;
+        }
+
+        .category img {
+            width: 170px;
+            height: 170px;
+            border-radius: 15px;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .category p {
+            margin-top: 12px;
+            font-size: 22px;
+            font-weight: bold;
+            font-style: italic;
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+
+</head>s
+
+<!-- Categories -->
+<div class="category" onclick="openCategory('fruit')">
+    <img src="fruit image.jpg">
+    <p>Fruit</p>
+</div>
+
+<div class="category" onclick="openCategory('vegetable')">
+    <img src="vegetable image.jpg">
+    <p>Vegetable</p>
+</div>
+
+<div class="category" onclick="openCategory('dairy')">
+    <img src="dairy image.jpg">
+    <p>Dairy</p>
+</div>
