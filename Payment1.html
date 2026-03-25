@@ -103,7 +103,14 @@
 <div class="container">
     <h2>KLM Supermarket Payment</h2>
 
-    <div class="amount">Total Amount: ₹500</div>
+    <div class="amount">Total Amount: Rs:span id="amount"></span></p></div>
+    script>
+    // get total from cart
+    let totalAmount = localStorage.getItem("cartTotal");
+
+    // show it
+    document.getElementById("amount").innerText = totalAmount;
+</script>
 
     <!-- Payment Options -->
     <div class="payment-method">
